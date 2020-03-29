@@ -83,7 +83,7 @@ const bar = new Foo(100,10)
 ```
 ![avatar](https://static001.geekbang.org/resource/image/da/69/dab6d6e2291117781e4294f27113d469.png)
 
-总结：
-1 对象属性尽量不要太多10个以内最好
-2 能不用数字作为key就不用，因为访问会多一层elements属性
-3 尽量不要delete属性，线性数据结构删除内容会导致内存重计算
+##### 总结：
+- 对象属性尽量不要太多10个以内最好
+- 能不用数字作为key就不用，因为访问会多一层elements属性
+- 尽量不要delete属性，线性数据结构删除内容会导致内存重计算
