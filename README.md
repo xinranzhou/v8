@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-03-29 22:59:53
- * @LastEditTime: 2020-12-21 10:06:20
+ * @LastEditTime: 2020-12-21 10:07:57
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /v8/README.md
@@ -14,4 +14,4 @@
 
 - [👉 对象的属性](https://github.com/xinranzhou/v8/blob/master/doc/object-extends.md)
 
-- [👉 对象的继承与原型链](https://github.com/xinranzhou/v8/blob/master/doc/extends.md)
+- [👉 对象的继承与原型链](https://github.com/xinranzhou/v8/blob/master/doc/extend.md)
