@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-12-24 09:37:49
- * @LastEditTime: 2020-12-25 09:43:37
+ * @LastEditTime: 2020-12-25 09:53:16
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /v8/doc/scope_ region.md
@@ -122,6 +122,10 @@ function bar(name) {
 foo()
 // foo
 ```
-最终打印的是foo，是不是很神奇？其实这儿的差异是在定义bar的时候，传了一个参数name，此时函数bar作用域中是有这个一个变量的，在foo中运行时候，
+只能通过传参的形式，在定义bar函数的时候，定义参数name后，在bar作用域中其实已经定义了一个name变量，在根据传入的实参重赋值name。
+
+### 作用域链的使用场景
+
+一般在开发中关于作用域链的查找层次一般都不回太深，另外一个使用场景就是大名鼎鼎的闭包，其返回的函数能访问上层函数中定义的变量，这就是根据作用域链来查找的。
 
 
