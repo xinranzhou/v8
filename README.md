@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-03-29 22:59:53
- * @LastEditTime: 2020-12-25 09:50:58
+ * @LastEditTime: 2020-12-25 09:52:11
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /v8/README.md
@@ -16,4 +16,4 @@
 
 - [👉 对象的继承与原型链](https://github.com/xinranzhou/v8/blob/master/doc/extend.md)
 
-- [👉 作用域链](https://github.com/xinranzhou/v8/blob/master/doc/scope_region.md)
+- [👉 作用域链](https://github.com/xinranzhou/v8/blob/master/doc/scope-region.md)
