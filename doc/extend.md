@@ -52,3 +52,4 @@ Person.apply(obj, ['xiaoming', 12])
 `obj.__proto__ = Person.prototype`这一步实现了生成的对象的原型指向了函数的原型对象。这也就实现了创建对象继承函数对象的原型对象。即Person.prototype,如果`Person.prototype.getAge = function() { return this.age } `,那么所以由构造函数Person创建的对象都继承与Person.prototype。都能访问到Person.prototype上的所有属性和方法。
 
 小结一下：
+javascript中实现继承的根本是对象的原型__proto__，该属性指向一个内存中的对象（原型对象）。在访问对象的属性时候，会沿着对象的原型查找属性，直到查找到null,改查找的路径就像链条一样，所以就称为原型链。
